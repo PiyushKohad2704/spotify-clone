@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assest/logo.png" />
+    <title>Spotify Web Music Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pinyon+Script&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="main">
+
+        <div class="global-navbar">
+            <div class="spotify-logo">
+                <img src="./assest/bandwlogo.png">
+            </div>
+            <div class="global-nav-home">
+                    <div class="home">
+                        <i class="fa-solid fa-house"></i>
+                        </div>
+                    <div class="home-bar">
+                    
+                       <div class="home-search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input placeholder=" What do you want to play?"></input>
+                                <div class="home-search-right">
+                                    <p>|</p>
+                            <i class="fa-solid fa-briefcase hs-browse"></i>
+                                </div>
+                            
+                       </div>
+                </div>
+            </div>
+            <div class="global-notification">   
+                <button class="ep">Explore Premium</button>
+                <div class="install-app">
+                    <a class="bg-black"><i class="fa-solid fa-arrow-down download-icon" style="margin-left: 0;"></i>Install App</a></button>
+                </div>
+                <i class="fa-solid fa-bell notification-hover"></i>
+                <i class="fa-solid fa-user-group notification-hover"></i>
+                        <div class="profile">
+                            <i class="fa-solid fa-user notification-hover"></i>
+                        </div>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <div class="library"> 
+                        <div class="left"><b>Your Library</b>
+                            <div class="space">
+                        <i class="fa-solid fa-plus"></i> 
+                        <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                            </div>
+                        </div>
+                        <div class="right-center" style="margin-top: 1rem;">
+                            <div class="right bt-black" style="background:none;">
+                                <div><a href="#" >Playlist</a> </div>
+                        <div> <a href="#">Artists</a></div>
+                        
+                        </div>
+                        </div>
+                        
+
+                        <div class="list-container">
+                            <div class="search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <div class="recent">
+                                <a href="#">Recent<i class="fa-solid fa-list"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="singer-list">
+                            <div class="singer"> 
+                                <img src="./singer/Lata.png">
+                                <div class="col">
+                                <div class="name" style="color: #1bd760;;">Lata Mangeshkar</div>
+                                <div class="meta">Artist</div>
+                                </div>
+                            </div>
+                            <div class="artist">
+                                <div class="music">
+                                    <i class="fa-solid fa-music"></i>
+                                </div>
+                                <div class="col">
+                                <div class="playlist">My Playlist#1</div>
+                                <div class="meta">Playlist. Piyush Kohad</div>
+                                </div>
+                            </div>
+                            <div class="singer">
+                                <img src="./singer/kishore.avif">
+                                <div class="col">
+                                <div class="name"> Kishore Kumar</div>
+                                <div class="meta">Artist</div>
+                                </div>
+                            </div>
+                            <div class="singer">
+                            <img src="./singer/sunidhi.jpg">
+                                <div class="col">
+                                <div class="name">Sunidhi Chauhan</div>
+                                <div class="meta">Artist</div>
+                                </div>
+                            </div>
+                            <div class="singer">
+                                <img src="./singer/shreya.jpeg">
+                                <div class="col">
+                                <div class="name">Shreya Ghoshal</div>
+                                <div class="meta">Artist</div>
+                                </div>
+                            </div>
+                    </div>
+                        
+                
+                
+            
+        </div>
+
+        <div class="main-content">
+            <div class="content-nav">
+                <div class="nav-option">
+                    <button class="bt-white"> All</button>
+                </div>
+                <div class="nav-option">
+                    <button class="bt-black"> Artist</button>
+                </div>
+                <div class="nav-option">
+                    <button class="bt-black"> Podcast</button>
+                </div>
+            </div>
+    
+                <div class="cards-heading1">
+                    <div class="container1-title">
+                        <p class="made-for">Made for</p>
+                        <h2 class="container-name" style="margin-top:0 ;">Piyush Kohad</h2>
+                    </div>
+                    <div class="showless">
+                        <h4><a href="#">Showless</a> </h4>
+                    </div>   
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assest/card1img.jpeg" class="card-img"/>
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of most played tracks.....</p>
+                    </div>
+                </div>
+                
+
+
+                <div class="cards-heading1">
+                    <div class="container1-title">
+                        <!-- <p class="made-for">Made for</p> -->
+                        <h2 class="container-name" >Popular albums and singles</h2>
+                    </div>
+                    <div class="showless">
+                        <h4><a href="#">Showall</a> </h4>
+                    </div>   
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assest/card2img.jpeg" class="card-img"/>
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of most played tracks.....</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assest/card3img.jpeg" class="card-img"/>
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of most played tracks.....</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assest/card4img.jpeg" class="card-img"/>
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of most played tracks.....</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assest/card5img.jpeg" class="card-img"/>
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of most played tracks.....</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assest/card6img.jpeg" class="card-img"/>
+                        <p class="card-title">Top 50 - India</p>
+                        <p class="card-info">Your daily updates of most played tracks.....</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assest/card3img.jpeg" class="card-img"/>
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of most played tracks.....</p>
+                    </div>
+                </div>
+
+
+                <div class="cards-heading1">
+                    <div class="container1-title">
+                        <!-- <p class="made-for">Made for</p> -->
+                        <h2 class="container-name" >Popular albums and singles</h2>
+                    </div>
+                    <div class="showless">
+                        <h4><a href="#">Showall</a> </h4>
+                    </div>   
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./assest/card2img.jpeg" class="card-img"/>
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of most played tracks.....</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assest/card6img.jpeg" class="card-img"/>
+                        <p class="card-title">Top 50 - India</p>
+                        <p class="card-info">Your daily updates of most played tracks.....</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assest/card4img.jpeg" class="card-img"/>
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of most played tracks.....</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assest/card3img.jpeg" class="card-img"/>
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of most played tracks.....</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assest/card5img.jpeg" class="card-img"/>
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of most played tracks.....</p>
+                    </div>
+                </div>
+    
+        <div class="footer">
+                    <div class="line"></div>
+        </div>
+        
+        </div>
+
+        <div class="data-scrollbar">
+            <div class="dt-heading">
+                <div class="dt">
+                    <span><h1> Vairamuthu</h1></span>
+                    <div class="dt-icons">
+                        <div class="dt-opt">
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                        <div class="dt-opt"><i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="hd-bottom-content">
+                    <div class="below-heading">
+                        <p class="sg-song dt-song"><a style="font-size: 1.4rem; font-weight: 600;"> Thaaye Thaaye</a></p>
+                        <a class="sg-singer dt-singer">Sid Sriram,</a> 
+                        <a class="sg-singer dt-singer">Vairamuthu</a>
+                    </div>
+                    <div class="plus-icon">
+                        <i class="fa-solid fa-circle-plus" style="padding-right: 0.5rem;"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="data-info">
+                <div class="data-section">
+                    <h3>Credits <span>Show all</span></h3>
+                        <div class="credit-row">
+                            <div class="credit-info">
+                                <div>Sid Sriram</div>
+                                <div class="credit-role">Main Artist</div>
+                            </div>
+                            <button class="follow-btn">Follow</button>
+                        </div>
+                        <div class="credit-row">
+                            <div class="credit-info">
+                                <div>Vairamuthu</div>
+                                <div class="credit-role">Main Artist</div>
+                            </div>
+                            <button class="follow-btn">Unfollow</button>
+                        </div>
+                        <div class="credit-row">
+                            <div class="credit-info">
+                                <div>B. Ajaneesh Loknath</div>
+                                <div class="credit-role">Composer</div>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="queue-section">
+                    <h3 style="margin-top: 0.25rem;">Next in queue <span>Open queue</span></h3>
+                        <div class="queue-row">
+                            <img src="./assest/chaya.jpg" alt="Album">
+                            <div class="queue-info">
+                            <p class="queue-title">Mere Khwabo...</p>
+                            <p class="queue-artist">Lata Mangeshkar</p>
+                            </div>
+                        </div>
+                </div>
+
+            </div>
+
+                    <div class="footer">
+                        <div class="line"></div>
+                    </div>
+        </div>
+        
+        <div class="music-player">
+            <div class="albums">
+                <div class="album-container">
+                    <div><img src="./assest/chaya.jpg" class="album-img"></div>
+                    
+                <div class="songs-name">
+                    <p class="sg-song"><a>Itna Na Mujhse Tu Pyar Badha</a></p>
+                     <a class="sg-singer">Talat Mahmood,</a> 
+                     <a class="sg-singer">Lata Mangeshkar</a>
+                </div>
+                <div class="plus-icon"><i class="fa-solid fa-circle-plus"></i></div>
+                
+                </div>
+                
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assest/player_icon1.png" class="player-control-icon">
+                    <img src="./assest/player_icon2.png" class="player-control-icon">
+                    <img src="./assest/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;">
+                    <img src="./assest/player_icon4.png" class="player-control-icon">
+                    <img src="./assest/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00.00</span>
+                    <input type="range" min="0" max="100" class="progress-bar">
+                    <span class="total-time">03.33</span>
+
+                </div>
+            </div>
+
+            <div class="controls">
+                <div class="media-controls">
+                    <i class="fa-solid fa-microphone-lines control-icon"></i>
+                    <i class="fa-solid fa-bars control-icon"></i>
+                    <i class="fa-solid fa-laptop control-icon"></i>
+                    <i class="fa-solid fa-volume-low control-icon"></i>
+                    <input type="range" min="0" max="100" class="volume-bar">
+                    <i class="fa-solid fa-expand control-icon"></i>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
